@@ -187,26 +187,8 @@ function initMap(){
         DrawState.preprepole = null;
     }, Cesium.ScreenSpaceEventType.RIGHT_CLICK);
 
-//    var mouseHandler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-//    mouseHandler.setInputAction(function (movement) {
-//        if (movement.position != null) {
-//            var cartesian = viewer.scene.camera.pickEllipsoid(movement.position, Cesium.Ellipsoid.WGS84);
-//            if (cartesian) {
-//            }
-//        }
-//    }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
 }
 
-//var loadingBar = document.getElementById("loadbar"), oldTime = (new Date).getTime(), loadIdx = setInterval(run, 100);
 $(document).ready(function () {
-    // mars3d.map.webglreport() || (alert("绯荤粺妫€娴嬪埌鎮ㄤ娇鐢ㄧ殑娴忚鍣ㄤ笉鏀寔WebGL鍔熻兘"), layer.open({
-    //     type: 1,
-    //     title: "褰撳墠娴忚鍣ㄤ笉鏀寔WebGL鍔熻兘",
-    //     closeBtn: 0,
-    //     shadeClose: !1,
-    //     resize: !1,
-    //     area: ["600px", "200px"],
-    //     content: '<div style="margin: 20px;"><h3>绯荤粺妫€娴嬪埌鎮ㄤ娇鐢ㄧ殑娴忚鍣ㄤ笉鏀寔WebGL鍔熻兘锛�</h3>  <p>1銆佽鎮ㄦ鏌ユ祻瑙堝櫒鐗堟湰锛屽畨瑁呬娇鐢ㄦ渶鏂扮増chrome銆佺伀鐙愭垨IE11浠ヤ笂娴忚鍣紒</p> <p>2銆乄ebGL鏀寔鍙栧喅浜嶨PU鏀寔锛岃淇濊瘉瀹㈡埛绔數鑴戝凡瀹夎鏄惧崱椹卞姩绋嬪簭锛�</p></div>'
-    // })),
     initMap();
 });
